@@ -21,9 +21,13 @@
         flex-basis:100%;
     }
     @media only screen and (max-width:1024px){
-        padding:0px;
+        //padding:0px;
         font-size:8px;
         flex-basis:100%;
+        p.salesItem{
+            padding-left:13px;
+            padding-right:13px;
+        }
         .salesItem{
             flex-basis:18%;
         }
