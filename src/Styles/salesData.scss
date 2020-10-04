@@ -1,0 +1,32 @@
+#salesData {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    flex-basis:70%;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    border-radius: 11px;
+    padding:12px;
+    font-size:13px;
+    min-height:100vh;
+    .salesItem{
+        flex-basis:20%;
+        text-align:center;
+        
+    }
+    .rowItem{
+        border: 1px grey;
+        border-style: solid none none;
+        display:flex;
+        flex-basis:100%;
+    }
+    @media only screen and (max-width:1024px){
+        padding:0px;
+        font-size:8px;
+        flex-basis:100%;
+        .salesItem{
+            flex-basis:18%;
+        }
+    }
+   
+}

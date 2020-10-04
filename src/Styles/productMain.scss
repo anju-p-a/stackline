@@ -1,0 +1,50 @@
+#productPage{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    border-radius:3px;
+    color:slategray;
+    label{
+        display: block;
+         text-align: left;
+        margin: 10px;
+        padding: 5px;
+        width: 50%;
+        border-radius: 5px;
+        box-shadow:1px 1px 1px 1px slategray;
+        font-weight:600;
+    }
+    label:hover{
+        box-shadow:1px 1px 1px 1px black;
+    }
+   
+    .productSide{
+        display:block;
+        text-align:center;
+        margin:22px;
+        width:300px;
+        background-color:white;
+    }
+    img{
+        width:250px;
+        height:auto;
+
+    }
+    .tagSpan{
+        padding:6px;
+        margin: 7px;
+        border: 1px solid;
+        border-radius: 11px;
+        color:dimgray;
+    }
+    .tagLine{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    h3{
+        color:black;
+    }
+    .brand{
+        font-size:13px;
+    }
+}
